@@ -7,11 +7,11 @@
 	<key>pusherAppIdProd</key>
 	<string>org.matrix.console.ios.prod</string>
 	<key>identityserverurl</key>
-	<string>https://matrix.org</string>
+	<string>http://matrix.org</string>
 	<key>homeserverurl</key>
-	<string>https://matrix.org</string>
+	<string>http://www.roomtech.io:8008</string>
 	<key>homeserver</key>
-	<string>matrix.org</string>
+	<string>http://www.roomtech.io:8008</string>
 	<key>apnsDeviceToken</key>
 	<string></string>
 	<key>showAllEventsInRoomHistory</key>
