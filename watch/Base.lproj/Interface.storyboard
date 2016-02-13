@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--EV3-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="EV3" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watch" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="100" alignment="left" image="ev3/frame_" contentMode="center" id="fcr-a5-hnH"/>
+                        <button width="1" alignment="left" title="Dance !!" id="ADf-Bo-iFa"/>
+                    </items>
+                    <connections>
+                        <segue destination="TYv-on-hkq" kind="relationship" relationship="nextPage" id="mNa-7D-5DC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="watch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Remote-->
+        <scene sceneID="uOW-qU-OIH">
+            <objects>
+                <controller title="Remote" id="TYv-on-hkq" customClass="InterfaceController" customModule="watch" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="100" alignment="left" image="lamp/frame_" contentMode="center" id="KQP-At-g7O"/>
+                        <button width="1" alignment="left" title="Blink !!" id="IGx-Pe-KRx"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="385" y="345"/>
+        </scene>
+    </scenes>
+</document>

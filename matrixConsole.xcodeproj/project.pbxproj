@@ -11,12 +11,21 @@
 		71193D241A6D64F900E59A9E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71193D231A6D64F900E59A9E /* AddressBook.framework */; };
 		71193D291A6E3DC000E59A9E /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71193D281A6E3DC000E59A9E /* ContactsViewController.m */; };
 		717629521A7A682A00927125 /* countryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 717629511A7A682A00927125 /* countryCodes.plist */; };
+		D52D5EF81C6F849500FB2D23 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52D5EF61C6F849500FB2D23 /* Interface.storyboard */; };
+		D52D5EFA1C6F849500FB2D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52D5EF91C6F849500FB2D23 /* Assets.xcassets */; };
+		D52D5F011C6F849500FB2D23 /* watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D52D5F001C6F849500FB2D23 /* watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D52D5F081C6F849500FB2D23 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D5F071C6F849500FB2D23 /* InterfaceController.swift */; };
+		D52D5F0A1C6F849500FB2D23 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D5F091C6F849500FB2D23 /* ExtensionDelegate.swift */; };
+		D52D5F0C1C6F849500FB2D23 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D5F0B1C6F849500FB2D23 /* NotificationController.swift */; };
+		D52D5F0E1C6F849500FB2D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52D5F0D1C6F849500FB2D23 /* Assets.xcassets */; };
+		D52D5F121C6F849500FB2D23 /* watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D52D5EF41C6F849500FB2D23 /* watch.app */; };
+		D52D5F1B1C6F9D0E00FB2D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52D5F0D1C6F849500FB2D23 /* Assets.xcassets */; };
 		D648B86A591308736E2D4078 /* libPods-matrixConsole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8141B1E2401FFCC3C5B99234 /* libPods-matrixConsole.a */; };
 		F013EEEC1A40D437002BB093 /* matrixConsole-Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F013EEEB1A40D437002BB093 /* matrixConsole-Defaults.plist */; };
 		F01449A31B53E06A00EA7D73 /* GlobalNotificationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449A21B53E06A00EA7D73 /* GlobalNotificationSettingsViewController.m */; };
 		F01449B41B56B14D00EA7D73 /* AccountDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449B31B56B14D00EA7D73 /* AccountDetailsViewController.m */; };
-		F01C113F1BCEA23E00FCDE1E /* matrixConsole.png in Resources */ = {isa = PBXBuildFile; fileRef = F01C113E1BCEA23E00FCDE1E /* matrixConsole.png */; settings = {ASSET_TAGS = (); }; };
-		F01C11411BCEA27C00FCDE1E /* matrixConsole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F01C11401BCEA27C00FCDE1E /* matrixConsole@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F01C113F1BCEA23E00FCDE1E /* matrixConsole.png in Resources */ = {isa = PBXBuildFile; fileRef = F01C113E1BCEA23E00FCDE1E /* matrixConsole.png */; };
+		F01C11411BCEA27C00FCDE1E /* matrixConsole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F01C11401BCEA27C00FCDE1E /* matrixConsole@2x.png */; };
 		F03EF5F619F171EB00A0EE52 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03EF5EB19F171EB00A0EE52 /* HomeViewController.m */; };
 		F03EF5F719F171EB00A0EE52 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03EF5ED19F171EB00A0EE52 /* AuthenticationViewController.m */; };
 		F03EF5F819F171EB00A0EE52 /* MasterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03EF5EF19F171EB00A0EE52 /* MasterTabBarController.m */; };
@@ -47,6 +56,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D52D5F021C6F849500FB2D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07A80CA19DD9DE700B621A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52D5EFF1C6F849500FB2D23;
+			remoteInfo = "watch Extension";
+		};
+		D52D5F101C6F849500FB2D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07A80CA19DD9DE700B621A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52D5EF31C6F849500FB2D23;
+			remoteInfo = watch;
+		};
 		F07A80EF19DD9DE700B621A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F07A80CA19DD9DE700B621A1 /* Project object */;
@@ -55,6 +78,31 @@
 			remoteInfo = matrixConsole;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D52D5F181C6F849500FB2D23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D52D5F011C6F849500FB2D23 /* watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52D5F1A1C6F849500FB2D23 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D52D5F121C6F849500FB2D23 /* watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13057A57E74FD5504196F47F /* Pods-matrixConsole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matrixConsole.release.xcconfig"; path = "Pods/Target Support Files/Pods-matrixConsole/Pods-matrixConsole.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +113,17 @@
 		717629511A7A682A00927125 /* countryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = countryCodes.plist; path = Resources/countryCodes.plist; sourceTree = "<group>"; };
 		8141B1E2401FFCC3C5B99234 /* libPods-matrixConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-matrixConsole.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EC7E45C718BF2BBCE0CF48 /* Pods-matrixConsole.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matrixConsole.debug.xcconfig"; path = "Pods/Target Support Files/Pods-matrixConsole/Pods-matrixConsole.debug.xcconfig"; sourceTree = "<group>"; };
+		D52D5EF41C6F849500FB2D23 /* watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52D5EF71C6F849500FB2D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D52D5EF91C6F849500FB2D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52D5EFB1C6F849500FB2D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52D5F001C6F849500FB2D23 /* watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52D5F061C6F849500FB2D23 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D52D5F071C6F849500FB2D23 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D52D5F091C6F849500FB2D23 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D52D5F0B1C6F849500FB2D23 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D52D5F0D1C6F849500FB2D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52D5F0F1C6F849500FB2D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F013EEEB1A40D437002BB093 /* matrixConsole-Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "matrixConsole-Defaults.plist"; sourceTree = "<group>"; };
 		F01449A11B53E06A00EA7D73 /* GlobalNotificationSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalNotificationSettingsViewController.h; sourceTree = "<group>"; };
 		F01449A21B53E06A00EA7D73 /* GlobalNotificationSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalNotificationSettingsViewController.m; sourceTree = "<group>"; };
@@ -115,6 +174,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D52D5EFD1C6F849500FB2D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F07A80CF19DD9DE700B621A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,6 +217,37 @@
 				13057A57E74FD5504196F47F /* Pods-matrixConsole.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D52D5EF51C6F849500FB2D23 /* watch */ = {
+			isa = PBXGroup;
+			children = (
+				D52D5EF61C6F849500FB2D23 /* Interface.storyboard */,
+				D52D5EF91C6F849500FB2D23 /* Assets.xcassets */,
+				D52D5EFB1C6F849500FB2D23 /* Info.plist */,
+			);
+			path = watch;
+			sourceTree = "<group>";
+		};
+		D52D5F041C6F849500FB2D23 /* watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D52D5F071C6F849500FB2D23 /* InterfaceController.swift */,
+				D52D5F091C6F849500FB2D23 /* ExtensionDelegate.swift */,
+				D52D5F0B1C6F849500FB2D23 /* NotificationController.swift */,
+				D52D5F0D1C6F849500FB2D23 /* Assets.xcassets */,
+				D52D5F0F1C6F849500FB2D23 /* Info.plist */,
+				D52D5F051C6F849500FB2D23 /* Supporting Files */,
+			);
+			path = "watch Extension";
+			sourceTree = "<group>";
+		};
+		D52D5F051C6F849500FB2D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52D5F061C6F849500FB2D23 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EAA71E3C2B16D1D86B3F5100 /* Frameworks */ = {
@@ -214,6 +311,8 @@
 			children = (
 				F07A80D419DD9DE700B621A1 /* matrixConsole */,
 				F07A80F119DD9DE700B621A1 /* matrixConsoleTests */,
+				D52D5EF51C6F849500FB2D23 /* watch */,
+				D52D5F041C6F849500FB2D23 /* watch Extension */,
 				F07A80D319DD9DE700B621A1 /* Products */,
 				B18A10A9FB884DD357EBD414 /* Pods */,
 				EAA71E3C2B16D1D86B3F5100 /* Frameworks */,
@@ -225,6 +324,8 @@
 			children = (
 				F07A80D219DD9DE700B621A1 /* matrixConsole.app */,
 				F07A80EE19DD9DE700B621A1 /* matrixConsoleTests.xctest */,
+				D52D5EF41C6F849500FB2D23 /* watch.app */,
+				D52D5F001C6F849500FB2D23 /* watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,6 +405,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D52D5EF31C6F849500FB2D23 /* watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52D5F191C6F849500FB2D23 /* Build configuration list for PBXNativeTarget "watch" */;
+			buildPhases = (
+				D52D5EF21C6F849500FB2D23 /* Resources */,
+				D52D5F181C6F849500FB2D23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52D5F031C6F849500FB2D23 /* PBXTargetDependency */,
+			);
+			name = watch;
+			productName = watch;
+			productReference = D52D5EF41C6F849500FB2D23 /* watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D52D5EFF1C6F849500FB2D23 /* watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52D5F171C6F849500FB2D23 /* Build configuration list for PBXNativeTarget "watch Extension" */;
+			buildPhases = (
+				D52D5EFC1C6F849500FB2D23 /* Sources */,
+				D52D5EFD1C6F849500FB2D23 /* Frameworks */,
+				D52D5EFE1C6F849500FB2D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch Extension";
+			productName = "watch Extension";
+			productReference = D52D5F001C6F849500FB2D23 /* watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		F07A80D119DD9DE700B621A1 /* matrixConsole */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F07A80F819DD9DE700B621A1 /* Build configuration list for PBXNativeTarget "matrixConsole" */;
@@ -314,10 +449,12 @@
 				F07A80D019DD9DE700B621A1 /* Resources */,
 				3496B335A95D95AB2A8DCEF4 /* Copy Pods Resources */,
 				56D720977680A8858FD17E8D /* Embed Pods Frameworks */,
+				D52D5F1A1C6F849500FB2D23 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D52D5F111C6F849500FB2D23 /* PBXTargetDependency */,
 			);
 			name = matrixConsole;
 			productName = matrixConsole;
@@ -348,9 +485,16 @@
 		F07A80CA19DD9DE700B621A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = matrix.org;
 				TargetAttributes = {
+					D52D5EF31C6F849500FB2D23 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D52D5EFF1C6F849500FB2D23 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					F07A80D119DD9DE700B621A1 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -375,11 +519,31 @@
 			targets = (
 				F07A80D119DD9DE700B621A1 /* matrixConsole */,
 				F07A80ED19DD9DE700B621A1 /* matrixConsoleTests */,
+				D52D5EF31C6F849500FB2D23 /* watch */,
+				D52D5EFF1C6F849500FB2D23 /* watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D52D5EF21C6F849500FB2D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D5EFA1C6F849500FB2D23 /* Assets.xcassets in Resources */,
+				D52D5F1B1C6F9D0E00FB2D23 /* Assets.xcassets in Resources */,
+				D52D5EF81C6F849500FB2D23 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52D5EFE1C6F849500FB2D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D5F0E1C6F849500FB2D23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F07A80D019DD9DE700B621A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +627,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D52D5EFC1C6F849500FB2D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D5F0C1C6F849500FB2D23 /* NotificationController.swift in Sources */,
+				D52D5F0A1C6F849500FB2D23 /* ExtensionDelegate.swift in Sources */,
+				D52D5F081C6F849500FB2D23 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F07A80CE19DD9DE700B621A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,6 +669,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D52D5F031C6F849500FB2D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52D5EFF1C6F849500FB2D23 /* watch Extension */;
+			targetProxy = D52D5F021C6F849500FB2D23 /* PBXContainerItemProxy */;
+		};
+		D52D5F111C6F849500FB2D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52D5EF31C6F849500FB2D23 /* watch */;
+			targetProxy = D52D5F101C6F849500FB2D23 /* PBXContainerItemProxy */;
+		};
 		F07A80F019DD9DE700B621A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F07A80D119DD9DE700B621A1 /* matrixConsole */;
@@ -503,6 +687,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D52D5EF61C6F849500FB2D23 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52D5EF71C6F849500FB2D23 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		F07A80E219DD9DE700B621A1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -538,6 +730,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D52D5F131C6F849500FB2D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = watch_Extension;
+				INFOPLIST_FILE = watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.console.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D52D5F141C6F849500FB2D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = watch_Extension;
+				INFOPLIST_FILE = watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.console.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D52D5F151C6F849500FB2D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.console.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D52D5F161C6F849500FB2D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.console.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		F07A80F619DD9DE700B621A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -688,6 +954,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D52D5F171C6F849500FB2D23 /* Build configuration list for PBXNativeTarget "watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52D5F151C6F849500FB2D23 /* Debug */,
+				D52D5F161C6F849500FB2D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D52D5F191C6F849500FB2D23 /* Build configuration list for PBXNativeTarget "watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52D5F131C6F849500FB2D23 /* Debug */,
+				D52D5F141C6F849500FB2D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F07A80CD19DD9DE700B621A1 /* Build configuration list for PBXProject "matrixConsole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
