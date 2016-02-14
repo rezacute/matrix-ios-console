@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
@@ -11,7 +11,11 @@
                 <controller title="EV3" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watch" customModuleProvider="target">
                     <items>
                         <imageView width="1" height="100" alignment="left" image="ev3/frame_" contentMode="center" id="fcr-a5-hnH"/>
-                        <button width="1" alignment="left" title="Dance !!" id="ADf-Bo-iFa"/>
+                        <button width="1" alignment="left" title="Dance !!" id="ADf-Bo-iFa">
+                            <connections>
+                                <action selector="didPressDanceButton" destination="AgC-eL-Hgc" id="2Rq-Vt-hMg"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <segue destination="TYv-on-hkq" kind="relationship" relationship="nextPage" id="mNa-7D-5DC"/>
@@ -49,7 +53,11 @@
                 <controller title="Remote" id="TYv-on-hkq" customClass="InterfaceController" customModule="watch" customModuleProvider="target">
                     <items>
                         <imageView width="1" height="100" alignment="left" image="lamp/frame_" contentMode="center" id="KQP-At-g7O"/>
-                        <button width="1" alignment="left" title="Blink !!" id="IGx-Pe-KRx"/>
+                        <button width="1" alignment="left" title="Blink !!" id="IGx-Pe-KRx">
+                            <connections>
+                                <action selector="didPressBlinkButton" destination="TYv-on-hkq" id="uJH-TH-fUz"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>

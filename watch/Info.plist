@@ -31,5 +31,6 @@
 	<string>org.matrix.console</string>
 	<key>WKWatchKitApp</key>
 	<true/>
+    
 </dict>
 </plist>
